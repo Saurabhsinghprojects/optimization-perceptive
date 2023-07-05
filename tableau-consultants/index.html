@@ -92,8 +92,22 @@
 		gtag('js', new Date());
 		gtag('config', 'UA-22731857-1');
 	</script>
-
-
+	 <script>
+		function redirectToPage() {
+		  
+		  window.location.href = 'https://www.youtube.com/watch?v=vCmiRaRwS1A';
+		}
+	  </script>
+	<style>
+		#clickable-area {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 50px;
+      height: 50px;
+      cursor: pointer;
+    }
+	</style>
 
 </head>
 
@@ -144,6 +158,7 @@
 						<!-- <iframe width="980" height="553" src="https://www.youtube-nocookie.com/embed/vCmiRaRwS1A?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 						
 						<div class='onq-youtube-player' style='width: 980px; display: block; position: relative; cursor: pointer; height:553px; overflow: hidden; margin: 20px auto;' data-id='vCmiRaRwS1A' data-width='980' data-height='553' data-ssv='false' data-spc='false' data-sta='false' data-afs='false' data-dkc='false' data-ecc='false' data-eap='true'>
+							<div id="clickable-area" onclick="redirectToPage()"></div>
 							<img src='images/tableaudesktop.webp' alt="Work with award winning tableau consultant" style='display: block; left: 0; margin: auto; width: 100%; height: 100%; position: absolute; right: 0;'>
 						</div>
 					</div>
